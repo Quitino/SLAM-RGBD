@@ -1,6 +1,14 @@
 ##  SLAM-RGBD
 
-高博系列博客的练习。更正了一些错误。读取图片的方式做了更改，便于使用TUM数据集。main.cpp是不想关的文件。
+高博系列博客的练习。更正了一些错误。读取图片的方式做了更改，便于使用TUM数据集。main.cpp是不想关的文件。特征点提取改用opencv3方式。
+
+##  结果
+
+G2O优化结果
+![](./data/G2O.png)
+
+重建结果：
+![](./data/result.png)
 
 ##  编译运行
 
@@ -64,13 +72,7 @@ TARGET_LINK_LIBRARIES( slam
     )
 ```
 
-##  结果
 
-G2O优化结果
-![](./data/G2O.png)
-
-重建结果：
-![](./data/result.png)
 
 
 ##  相关参考博客
