@@ -1,0 +1,2 @@
+/usr/bin/ar qc libslambase.a  CMakeFiles/slambase.dir/src/slamBase.cpp.o
+/usr/bin/ranlib libslambase.a
